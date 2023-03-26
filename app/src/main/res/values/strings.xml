@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kasir 3D Aquatic</string>
+    <string name="title_activity_splashscreen">splashscreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="alert_barangtambah">Silahkan pilih kategori dari barang yang akan ditambahkan</string>
+    <string name="alert_barangmasuk">Silahkan pilih barang dengan stok yang akan ditambahkan</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="alert_tambahkasir">Halaman ini hanya dapat diakses oleh admin.</string>
+    <string name="alert_barang">Barang yang ditambahkan pada menu tambah barang merupakan barang yang tidak terdapat pada database, jika ingin menambahkan stok barang maka gunakan menu barang masuk!</string>
+    <string name="alert_kasir">Silahkan pilih barang yang akan dibeli dan klik tombol selanjutnya untuk memproses pembelian</string>
+    <string name="alert_kategori_hapus">Menghapus kategori akan mempengaruhi data barang yang berelasi dengan kategori yang akan dihapus!!</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Open Navigation Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

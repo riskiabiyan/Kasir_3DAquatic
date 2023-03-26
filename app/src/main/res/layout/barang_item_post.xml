@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/border_red"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/tvTextnama_barang"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/tvTextketerangan"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTextid"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/red"
+        android:id="@+id/btnLihatDetilBarang"
+        android:text="Lihat Detail"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+

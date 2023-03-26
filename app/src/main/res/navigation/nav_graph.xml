@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_dashboard">
+
+    <activity
+        android:id="@+id/nav_dashboard"
+        android:label="Dashboard"
+        tools:layout="@layout/activity_barang"></activity>
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_kasir"-->
+<!--        android:name="com.riskiabiyan.kasir3daquatic.KasirFragment"-->
+<!--        android:label="Kasir"-->
+<!--        tools:layout="@layout/fragment_kasir"></fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_barang"-->
+<!--        android:name="com.riskiabiyan.kasir3daquatic.BarangFragment"-->
+<!--        android:label="Barang"-->
+<!--        tools:layout="@layout/fragment_barang"></fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/nav_riwayat"-->
+<!--        android:name="com.riskiabiyan.kasir3daquatic.RiwayatFragment"-->
+<!--        android:label="Riwayat"-->
+<!--        tools:layout="@layout/fragment_riwayat"></fragment>-->
+</navigation>

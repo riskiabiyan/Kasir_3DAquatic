@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/border_red"
+>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="24dp"
+            android:id="@+id/tvText"/>
+
+        <TextView
+            android:id="@+id/tvTextId"
+            android:textColor="@color/white"
+            android:text="id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            ></TextView>
+
+        <Button
+            android:id="@+id/btnHapuskategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:text="Hapus"
+            ></Button>
+
+    </LinearLayout>
+

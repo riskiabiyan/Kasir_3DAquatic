@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/icon_dashboard"
+            android:title="Dashboard"></item>
+        <item
+            android:id="@+id/nav_kasir"
+            android:icon="@drawable/icon_kasir"
+            android:title="Kasir"></item>
+        <item
+            android:id="@+id/nav_barang"
+            android:icon="@drawable/icon_file"
+            android:title="Barang"></item>
+        <item
+            android:id="@+id/nav_barangmasuk"
+            android:icon="@drawable/icon_file"
+            android:title="Barang Masuk"
+            ></item>
+        <item
+            android:id="@+id/nav_kategori"
+            android:icon="@drawable/icon_kategori"
+            android:title="Kategori"
+            ></item>
+    </group>
+</menu>
